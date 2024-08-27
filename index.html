@@ -20,7 +20,7 @@
 
     <main class="cuerpo__encriptador">
         <div class="encriptador__input">
-            <input class="text-area" oninput="this.value = this.value.toLowerCase()" placeholder="Ingresa solamente minúsculas y sin caracteres especiales.">
+            <textarea class="text-area" oninput="this.value = this.value.toLowerCase()" placeholder="Ingresa solamente minúsculas y sin caracteres especiales."></textarea>
             <p>Solo letras minúsculas, sin caracteres especiales ni números.</p>
             
             <div class="botones">
@@ -30,7 +30,7 @@
         </div>
 
         <div class="encriptador__output">
-            <textarea class="mensaje" placeholder="Resultado aparecerá aquí..." readonly></textarea>
+            <textarea class="mensaje" placeholder="Resultado aparecerá aquí..." read></textarea>
             <button class="btn-copiar">Copiar</button>
         </div>
 
