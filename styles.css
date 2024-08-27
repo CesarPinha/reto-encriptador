@@ -171,4 +171,13 @@ footer {
       text-shadow: 0 0 5px #0ff0fc, 0 0 10px #0ff0fc, 0 0 20px #0ff0fc, 0 0 40px #00bfff, 0 0 80px #00bfff, 0 0 90px #00bfff, 0 0 100px #00bfff;
     }
   }
-         /* Efectos neón */
+
+  /* Footer  */
+  footer {
+    color: #b026ff; /* Color morado neón */
+    text-shadow: 0 0 5px #b026ff, 0 0 10px #b026ff, 0 0 20px #b026ff, 0 0 40px #d884ff, 0 0 80px #d884ff, 0 0 90px #d884ff, 0 0 100px #d884ff;
+    animation: neon-flicker .9s infinite;
+    font-weight: 650;
+  }
+  
+           /* Efectos neón */
