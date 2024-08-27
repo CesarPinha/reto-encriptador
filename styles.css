@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background: url(./img/fondoAI.webp);
+    background: url(./img/fondoAI.jpg);
     background-color: #0fc6fd;
     min-height: 100vh;
     display: flex;
@@ -72,13 +72,14 @@ header {
 }
 
 .text-area, .mensaje {
+    font-size: 15px;
     width: 100%;
     height: calc(100% - 80px);
     resize: none;
     padding: 10px;
-    border: 3px solid #00fff2;
+    border: 3.3px double #00fff2;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255,  0.8);
+    background-color: rgba(255, 255, 255,  0.5);
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -93,12 +94,16 @@ header {
 .btn-encriptar, .btn-desencriptar, .btn-copiar {
     padding: 10px;
     width: 48%;
-    background-color: #007BFF;
+    background-color: #007bff96;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+}
+
+.btn-encriptar:hover, .btn-desencriptar:hover, .btn-copiar:hover {
+    background-color: #0056b3; /* Color más oscuro al hacer hover */
 }
 
 .encriptador__output {
