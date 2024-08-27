@@ -18,6 +18,7 @@ function encriptar(stringEncriptado) {
             stringEncriptado = stringEncriptado.replaceAll(matizCodigo[i][0], matizCodigo[i][1])
         }
     }
+    return stringEncriptado
 }
 
 function btnDesencriptar() {
